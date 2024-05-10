@@ -13,6 +13,6 @@ which extends the abstract Vehicle class. The Car class contains the following:
 * the equals method
 * a copy method
 
-## Extra item : Image
-
-![This is an alt text.](/image/car.jpeg "This is a sample image.")
+## Extra item : Link
+           
+Click for more information: [Cars](https://www.imdb.com/title/tt0317219/).
