@@ -1,6 +1,8 @@
-*
-*
-*
+/**
+ * Lab 10 Car class
+ * @author Tess Adams
+ *
+ */
 public class Car extends Vehicle{
 	private int numDoors;
 	private int numPassengers;
@@ -20,7 +22,7 @@ public class Car extends Vehicle{
 	}
 	
 	public String toString(){
-		String result = String.format("%d-door %s %s with license %s.", this.numDoors, this.getMake(), this.getModel(), this.getPlate())
+		String result = String.format("%d-door %s %s with license %s.", this.numDoors, this.getMake(), this.getModel(), this.getPlate());
 		return result;
 	}
 	
